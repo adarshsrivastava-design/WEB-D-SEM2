@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Result Calculator</title>
+</head>
+<style>
+    *{
+      padding:0;  
+      box-sizing: border-box;
+    }
+    .container{
+         text-align: center;
+         background: rgb(255, 255, 255);
+            padding: 20px;
+            width: 350px;
+            margin-top: auto;
+            margin: auto;
+            border-radius:10px;
+            box-shadow:0 0 5px rgb(0, 0, 0);
+    }
+</style>
+
+<body>
+<div class="container">
+<h2>Student Result Calculator</h2>
+
+<label>Enter Number of Subjects:</label>
+<br><br>
+<input type="number" id="subjects" placeholder="Enter number of subjects"><br><br>
+<br><br>
+
+<button type="button" onclick="calculateResult()">Calculate Result</button>
+
+<h3 id="output"></h3>
+</div>
+<script src="script4.js"></script>
+</body>
+</html>
